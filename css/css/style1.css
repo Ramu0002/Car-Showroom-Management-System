@@ -1,0 +1,427 @@
+/* 
+    Author: Ramu;
+    Theme:Car management system;
+    version: 1.0;
+*/
+
+/* CSS for All */
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.contact
+{
+ position: relative;
+ min-height: 100vh;
+ padding: 50px 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+background: url(images/car6.jpg);
+ background-size: cover;
+}
+.contact .content
+{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2
+{
+  font-size: 36px;
+  font-weight: 500;
+  color:#fff;
+}
+.contact .content p
+{
+  font-size: 15px;
+  font-weight: 500;
+  color:#fff;
+}
+.container
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .contactinfo
+{
+  width: 50%;
+  display: flex;
+  flex-direction:column ;
+}
+.container .contactinfo .box
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactinfo .box .icon 
+{ 
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size:20px;
+}
+.container .contactinfo .box .text
+{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactinfo .box .text h3
+{
+  font-weight: 500;
+  color: #00bcd4;
+}
+.contactform
+{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactform h2
+{
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+
+}
+.contactform .inputBox
+{
+  position: relative;
+  width: 100%; 
+  margin-top: 10px;
+
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;  
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contactform .inputBox span
+{
+  position: absolute;
+  left: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+
+} 
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span,
+.contactform .inputBox textarea:focus ~ span,
+.contactform .inputBox textarea:valid ~ span,
+{
+  color :#;
+  font-size  :12px;
+  transform :translateY(-20px);
+
+}
+ .contactform  .inputBox input[type="submit"]
+ {
+   width: 100px;
+   background: #00bcd4;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 18px;
+ }
+ @media (max-width:991px)
+.index{
+
+    font-family: sans-serif;
+}
+.text{
+    text-align: left;
+    font-style: bold;
+}
+
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for car SEarch Section */
+
+.car-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.car-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for car Menu */
+.car-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.car-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.car-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.car-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.car-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.car-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* car Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .car-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .car-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .car-menu{
+        padding: 20% 0;
+    }
+
+    .car-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+   .success{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.error{
+    color: #EA2027;
+    text-align: center;
+}
+
+
+
+}
